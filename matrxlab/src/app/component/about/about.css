@@ -3,22 +3,19 @@ max-width: 1440px;
 height: 756px;
 margin-top: 76px;
 text-align: center;
-border: 1px solid rgb(157, 0, 255);
 }
 
 .insideaboutcontainer{
     max-width: 1440px;
     text-align: center;
 height: 684px;
-border: 1px solid rgb(0, 255, 68);
 }
 .abouttext{
     width: 222px;
     height: 44px;
     margin: auto;
     margin-top: 24px;
-    /* top: 24px;
-    left: 608.53px; */
+    
    
     color: white;
     
@@ -116,10 +113,10 @@ border-radius: 12px ;
 }
 
 
-
+/* mediaQuery responsive */
 
 @media (max-width: 768px) {
-    /* For mobile devices, we adjust leftstay, rightstay, futureleft, futureright */
+   
     .aboutContainer{
         max-width: 1440px;
         height: auto;

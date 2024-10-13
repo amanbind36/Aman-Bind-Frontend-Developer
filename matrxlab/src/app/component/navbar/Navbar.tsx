@@ -1,10 +1,10 @@
-"use client"; // Note: Use "use client" if you're using Next.js 13 or later with App Router
+"use client"; 
 
-import React, { useState } from "react"; // Import useState for managing the menu state
+import React, { useState } from "react"; 
 import Link from "next/link";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false); // State to manage the menu visibility
+  const [isOpen, setIsOpen] = useState(false);
 
   const menuItem = [
     { name: "Features", link: "/" },
@@ -14,13 +14,13 @@ const Navbar = () => {
   ];
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen); // Toggle the menu visibility
+    setIsOpen(!isOpen); 
   };
 
   return (
     <nav style={{margin:"auto"}} className="shadow-md py-4">
       <div style={{margin:"auto"}} className="container mx-auto flex justify-around items-center">
-        {/* Brand name on the left */}
+       
         <div className="text-2xl flex font-bold text-gray-800">
             <div>
             <svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,7 +41,7 @@ const Navbar = () => {
           
             </div>
 
-        {/* Centered Menu Items for larger screens */}
+         
         <div className="hidden md:flex flex-grow justify-center">
           <ul  style={{ backgroundColor: 'rgb(10, 31, 34)',color:" rgb(116, 176, 182) "}} className="flex items-center justify-around w-[655px] h-16 max-w-lg  rounded-3xl p-2 text-center">
             {menuItem.map((menu) => (
@@ -57,7 +57,6 @@ const Navbar = () => {
           </ul>
         </div>
 
-        {/* Buttons on the right */}
         <div className="hidden md:flex space-x-4">
           <button style={{color:"white"}} className="px-4 py-2 text-gray-700 rounded hover:bg-gray-300 transition-colors duration-300">
             Log in
@@ -92,7 +91,7 @@ const Navbar = () => {
         className={`md:hidden ${
           isOpen ? "block" : "hidden"
         } p-4 absolute w-full left-0 top-full z-10`}
-        // style={{ backgroundColor: isOpen ? "transparent" : "transparent" }} // No background color
+       
       >
         {/* Close Button */}
         <div className="flex justify-end">
