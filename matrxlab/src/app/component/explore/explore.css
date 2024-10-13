@@ -1,0 +1,52 @@
+.explorecontainer{
+    max-width: 1440px;
+    height: 462px;
+    margin-top: 72px;
+    border: 1px solid red;
+}
+.insideexplore{
+    width: 960px;
+    height: 382px;
+    background-color: rgb(5, 38, 46);
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid red;
+    margin-top: 30px;
+    box-shadow: 0px 0px 32px 16px rgba(99, 242, 255, 0.1) inset;
+
+}
+.inside2explore{
+    width: 648px;
+    margin: auto;
+    height: 196px;
+    margin-top: 32px;
+    border: 1px solid green;
+}
+
+.exploretext{
+    width: 323px;
+    height: 44px;
+    margin: auto;
+   
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 500px;
+    align-items: center;
+}
+.texteathai{
+   
+    height: 120px;
+
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: rgb(124, 183, 189);
+}
+.explorebutton{
+    width: 139.71px;
+    height: 44px;
+    border-radius: 12px;
+    padding: 12px 24px;
+    margin: auto;
+}

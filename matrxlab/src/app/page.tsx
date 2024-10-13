@@ -3,6 +3,8 @@ import MarketCompo from './component/marketinsight/MarketCompo';
 import About from './component/about/About';
 import Tockenomics from './component/Tockenomics/Tockenomics';
 import Roadmap from './component/roadmap/Roadmap';
+import Askedquestion from './component/askedquestion/Askedquestion';
+import Explore from './component/explore/Explore';
 const Home = () => {
   return (
     <>
@@ -36,6 +38,8 @@ const Home = () => {
        <About/>
        <Tockenomics/>
        <Roadmap/>
+       <Askedquestion/>
+       <Explore/>
       </div>
     </>
   );
