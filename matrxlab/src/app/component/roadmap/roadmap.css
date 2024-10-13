@@ -1,0 +1,135 @@
+
+.roadmapcontainer{
+    max-width:1440px ;
+    height:2092px ;
+    border: 1px solid red;
+    margin-top: 64px
+}
+.roadmaptext{
+    font-weight: 500px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.insideroadmap{
+    height: 640px;
+    margin: auto;
+    width: 1440px;
+    border: 1px solid green;
+}
+.inside2roadmap{
+    width: 1200px;
+    margin: auto;
+    height: 512px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    border: 1px solid yellow;
+    padding: 56px;
+    box-sizing: border-box;
+}
+.leftroadmap{
+    width: 534.66px;
+    height: 304px;
+    border: 1px solid blue;
+}
+.rightroadmap{
+    background: linear-gradient(180deg, #00161D 0%, rgba(0, 22, 29, 0) 37.69%),
+linear-gradient(180deg, rgba(0, 22, 29, 0) 81.47%, #00161D 100%),
+linear-gradient(270deg, #00161D 0%, rgba(0, 22, 29, 0) 19.64%);
+
+    max-width: 576;
+    width: 512px;
+    height: 512px;
+    border: 1px solid rgb(0, 255, 17);
+
+}
+.phasebutton{
+    width: 81px;
+    background-color: rgba(247, 247, 247, 1);
+    height: 28px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500px;
+    padding: 6px 12px;
+    color: rgba(51, 51, 51, 1);
+    ;
+}
+.name{
+    margin-top: 20px;
+    font-weight: 500px;
+    font-size: 40px;
+    line-height: 44px;
+    color:rgba(255, 255, 255, 1) ;
+}
+.list{
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400px;
+    color: rgba(239, 239, 232, 1);
+}
+
+
+
+/* //mediaQuery for responsive */
+
+
+/* For tablets (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .inside2roadmap {
+      flex-direction: column; /* Stack the left and right roadmap */
+      align-items: center; /* Center the content */
+      width: 100%; /* Full width */
+      height: auto; /* Allow the height to adjust */
+      padding: 32px; /* Adjust padding */
+    }
+  
+    .leftroadmap, .rightroadmap {
+      width: 90%; /* Adjust to take up most of the width */
+      margin-bottom: 24px; /* Add some space between the items */
+      height: auto; /* Adjust height based on content */
+    }
+  
+    .rightroadmap {
+      height: 320px; /* Set video height for better display */
+    }
+  }
+  
+  /* For mobile devices (max-width: 480px) */
+  @media only screen and (max-width: 480px) {
+    .inside2roadmap {
+      flex-direction: column; /* Stack vertically */
+      align-items: center; /* Center the items */
+      width: 100%; /* Full width */
+      padding: 20px; /* Reduce padding for small screens */
+    }
+  
+    .leftroadmap, .rightroadmap {
+      width: 100%; /* Full width on mobile */
+      margin-bottom: 16px; /* Space between items */
+      height: auto; /* Auto height to fit content */
+    }
+  
+    .rightroadmap {
+      height: 240px; /* Smaller height for the video */
+    }
+  
+    .phasebutton {
+      width: 70px; /* Adjust button size */
+      font-size: 10px; /* Smaller font size */
+      height: 24px; /* Adjust height */
+    }
+  
+    .name {
+      font-size: 24px; /* Adjust title size */
+      line-height: 28px; /* Adjust line height */
+    }
+  
+    .list {
+      font-size: 16px; /* Smaller font for list items */
+      line-height: 22px;
+    }
+  }
+  

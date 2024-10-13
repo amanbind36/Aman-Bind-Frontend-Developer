@@ -27,13 +27,15 @@ const Tockenomics = () => {
            <div className='insidetocken'>
             <div className='inside2tocken'>
                 <div className='lefttocken'>
+                    <p>Liquiditypool(90%)</p>
                 <div className="chart">
   <div className="slice slice1"></div>
   <div className="slice slice2"></div>
   <div className="slice slice3"></div>
 </div>
-
-            <div className='arrow'></div>
+                <p className='market'>marketing(5%)</p>
+                <p className='team'>Team</p>
+            
                 </div>
                 <div className='righttocken'>
                     <div className='toptocken'>
@@ -78,7 +80,27 @@ const Tockenomics = () => {
         </table>
                     </div>
                     <div className='downtocken'>
-                        
+                        <table>
+                         
+                        <tbody>
+                            <tr>
+                                <td>Team</td>
+                                <td>:</td>
+                                <td>35%</td>
+                            </tr>
+                            <tr>
+                                <td>Marketing</td>
+                                <td>:</td>
+                                <td>5%</td>
+                            </tr>
+                            <tr>
+                                <td>Liquidity Pool</td>
+                                <td>:</td>
+                                <td>90%</td>
+                            </tr>
+                        </tbody>
+                           
+                        </table>
                     </div>
                 </div>
             </div>

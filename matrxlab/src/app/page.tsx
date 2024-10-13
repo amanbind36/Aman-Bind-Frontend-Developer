@@ -2,6 +2,7 @@ import React from 'react';
 import MarketCompo from './component/marketinsight/MarketCompo';
 import About from './component/about/About';
 import Tockenomics from './component/Tockenomics/Tockenomics';
+import Roadmap from './component/roadmap/Roadmap';
 const Home = () => {
   return (
     <>
@@ -34,6 +35,7 @@ const Home = () => {
        <MarketCompo/>
        <About/>
        <Tockenomics/>
+       {/* <Roadmap/> */}
       </div>
     </>
   );
