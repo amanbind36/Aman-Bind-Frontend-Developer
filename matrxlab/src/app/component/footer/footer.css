@@ -1,0 +1,78 @@
+.footercontainer{
+    max-width: 1440px;
+    height: 470px;
+    margin: auto;
+    background: rgba(1, 15, 20, 1);
+    margin-top: 72px;
+    border: 1px solid red;
+}
+.insidefooter{
+    max-width: 1308px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    height: 470px;
+    border: 1px solid green;
+}
+.leftfooter{
+    width: 45%;
+    height: 100%;
+    border: 1px solid blue;
+}
+.rightfooter{
+    width: 45%;
+    height: 100%;
+    border: 1px solid blue;
+}
+.icons{
+    margin-top: 50px;
+    display: flex;
+    width: 80%;
+    font-size: 26px;
+    justify-content: space-around;
+    color: white;
+}
+.brandname{
+    width: 168px;
+    height: 56px;
+    margin-top: 100px;
+    gap: 16px;
+}
+.footerbootom{
+    width: 480px;
+    height: 182px;
+    margin-top: 123px;
+    border: 1px solid red;
+}
+.textfooter{
+    width: 480px;
+    color: white;
+    height: 88px;
+    font-size: 40px;
+    font-weight: 500px;
+    font-family: Space Grotesk;
+}
+.searchcontainer{
+    width: 480px;
+    border-radius: 18px;
+    height: 54px;
+    border: 1px solid gray;
+}
+.searchbutton{
+    width: 135px;
+    height: 44px;
+    margin-left: 30px;
+    color: white;
+    border-radius: 12px;
+    padding: 12px 24px;
+    box-shadow: 0px 0px 40px 0px rgba(139, 249, 232, 0.2) inset;
+
+backdrop-filter: blur(7.5px)
+
+}
+.searchcontainer>input{
+   
+    width: 294px;
+    height: 20px;
+    background-color: black;
+}

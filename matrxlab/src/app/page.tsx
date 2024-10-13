@@ -40,6 +40,7 @@ const Home = () => {
        <Roadmap/>
        <Askedquestion/>
        <Explore/>
+       
       </div>
     </>
   );

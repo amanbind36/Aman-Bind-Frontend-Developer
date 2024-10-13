@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./component/navbar/Navbar";
-import MarketCompo from "./component/marketinsight/MarketCompo";
-
+import Footer from "./component/footer/Footer";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -66,13 +65,13 @@ export default function RootLayout({
             color: "white", // White text to contrast against video background
           }}
         >
-          {/* Navbar */}
+        
           <Navbar />
         
-          {/* Content on top of the video */}
+      
           <div style={{ padding: "20px", marginTop:"100px" }}>{children}</div>
         </div>
-        
+        <Footer/>
         
       </body>
     </html>
