@@ -1,0 +1,199 @@
+.aboutContainer{
+max-width: 1440px;
+height: 756px;
+margin-top: 76px;
+text-align: center;
+border: 1px solid rgb(157, 0, 255);
+}
+
+.insideaboutcontainer{
+    max-width: 1440px;
+    text-align: center;
+height: 684px;
+border: 1px solid rgb(0, 255, 68);
+}
+.abouttext{
+    width: 222px;
+    height: 44px;
+    margin: auto;
+    margin-top: 24px;
+    /* top: 24px;
+    left: 608.53px; */
+   
+    color: white;
+    
+     
+}
+.secondtext{
+    width: 703px;
+height: 48px;
+margin: auto;
+margin-top: 24px;
+color: rgba(176, 250, 255, 0.7);
+}
+.aboutbutton{
+    width: Fixed (108.91px)px;
+height: Hug (40px)px;
+
+margin-top: 84px;
+color: black;
+background-color: rgba(76, 221, 253, 1);
+padding: 10px 20px 10px 20px;
+gap: 0px;
+border-radius: 12px ;
+
+
+}
+.staycontainer{
+    max-width: 1440px;
+    margin-top: 40px;
+    height: 400px;
+    border: 1px solid red;
+}
+.insidestay{
+    width: 744px;
+    height: 400px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgba(8, 37, 42, 1);
+    border: 1px solid rgb(128, 0, 85);
+}
+.secondcontainer{
+    width: 617px;
+    height: 304px;
+    border: 1px solid yellow;
+    margin: auto;
+    margin-top: 48px;
+
+}
+.topstay{
+    text-align: left;
+    width: 617px;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    border: 1px solid red;
+}
+.downstay{
+    width: 617px;
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    height: 144px;
+    border: 1px solid red;
+}
+.leftstay{
+    width: 290.5px;
+    height: 120px;
+    border: 1px solid green;
+}
+.rightstay{
+    width: 290.5px;
+    height: 120px;
+    border: 1px solid green;
+}
+.staytext{
+    color: white;
+    width: 290.5px;
+    height: 24px;
+}
+.stay2text{
+    width: 290.5px;
+    height: 48px;
+    color:rgba(176, 250, 255, 0.7) ;
+}
+.futureleft{
+    width: 290.5px;
+    height: 144px;
+    border: 1px solid green;
+
+}
+.futureright{
+    width: 290.5px;
+    height: 144px;
+    border: 1px solid green;
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    /* For mobile devices, we adjust leftstay, rightstay, futureleft, futureright */
+    .aboutContainer{
+        max-width: 1440px;
+        height: auto;
+        margin-top: 76px;
+        text-align: center;
+        border: 1px solid rgb(157, 0, 255);
+        }
+        
+        .insideaboutcontainer{
+            max-width: 1440px;
+            text-align: center;
+        height: auto;
+        border: 1px solid rgb(55, 0, 255);
+        }
+
+        .secondtext{
+            width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 24px;
+        color: rgba(176, 250, 255, 0.7);
+        }
+        .insidestay{
+            width: 100%;
+            height: auto;
+            margin: auto;
+            border-radius: 20px;
+            background-color: rgba(8, 37, 42, 1);
+            border: 1px solid rgb(128, 0, 85);
+        }
+        .staycontainer{
+            max-width: 100%;
+            height: auto;
+            border: 1px solid red;
+        }
+        .secondcontainer{
+            width: 100%;
+            height: auto;
+            border: 1px solid yellow;
+            margin: auto;
+            margin-top: 48px;
+        
+        }
+        .topstay{
+            width: 100%;
+        }
+        .downstay{
+            width: 100%;
+            margin-top: 136px;
+            text-align: left;
+            justify-content: space-between;
+            height: auto;
+            border: 1px solid red;
+        }
+        .stay2text{
+            width: auto;
+            height: auto;
+            
+            color:rgba(176, 250, 255, 0.7) ;
+        }
+        .rightstay{
+            width: 100%;
+           
+            border: 5px solid green;
+        }
+    .leftstay,  .futureleft, .futureright {
+      width: 100%; /* Make them full-width */
+      height: auto; /* Adjust height for responsive design */
+      margin-bottom: 16px; /* Add some spacing between elements */
+    }
+  
+    .topstay, .downstay {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center;
+    }
+  }
+  

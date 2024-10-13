@@ -1,0 +1,168 @@
+.maincontainer{
+max-width: 1440px;
+height: 832px;
+margin: auto;
+border:1px solid red;
+
+
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    width:1200px;
+    height:504px;
+    margin:auto;
+    margin-top: 20px;
+}
+
+
+.lowercontainer{
+    display:flex;
+    
+    width:1200px;
+    height:240px;
+    margin:auto;
+    margin-top: 20px;
+    
+  
+    justify-content: space-between;
+}
+
+
+.left{
+    height: 100%;
+    width: 280px;
+    border-top-left-radius: 30px;
+    background-color: rgb(8, 37, 41);
+}
+
+.right{
+    height: 100%;
+    background-color: rgb(8, 37, 41);
+    width: 280px;
+    border-top-right-radius: 30px;
+
+}
+.mid{
+    height: 100%;
+ 
+    width: 608px;
+}
+.portfolio{
+    height: 240px;
+    background-color: rgb(8, 37, 41);
+    width: 446px;
+    border-bottom-left-radius: 20px;
+}
+.scout{
+    height: 240px;
+    background-color: rgb(8, 37, 41);
+    width: 738px;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 20px;
+}
+.rectangele{
+    height: 100px;
+    width: 100px;
+    background-color:rgba(21, 182, 201, 1) ;
+    margin: auto;
+    border-radius: 16px;
+    margin-top: 91px;
+}
+.trade{
+    height: 232px;
+    text-align: center;
+    height: 203px;
+    margin: auto;
+    margin-top: 48px;
+}
+.midfirst{
+    height: 198px;
+    width: 608px;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: rgb(8, 37, 41);
+}
+.midsecond{
+    height: 290px;
+    margin-top: 10px;
+    width: 608px;
+    background-color: rgb(8, 37, 41);
+    border-radius: 16px;
+}
+.insight{
+    height: 134px;
+    max-width: 360px;
+
+}
+.insightscout{
+    height: 158px;
+   
+    max-width: 340px;
+}
+
+
+
+@media (max-width: 768px) {
+    .maincontainer{
+        max-width: 1440px;
+        height: auto;
+        margin: auto;
+        overflow-y: hidden;
+        }
+    .upper {
+        display: flex;
+        flex-direction: column;
+        width: 100%; /* Take full width on smaller screens */
+        height: auto; /* Let the height adjust based on content */
+        margin: 0; /* Remove auto margin for center alignment */
+        margin-top: 10px; /* Adjust margin for spacing */
+    }
+
+    .lowercontainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%; /* Full width */
+        height: auto; /* Adjust height based on content */
+        margin: auto;
+        margin-top: 10px; /* Spacing */
+    }
+
+    .left, .right, .mid {
+        width: 100%; /* Each section takes full width */
+        height: auto; /* Adjust height automatically */
+        margin-bottom: 10px; /* Add margin between sections */
+        border-radius: 16px; /* Optional: adjust border radius for a smaller screen */
+    }
+
+    .portfolio, .scout {
+        width: 100%; /* Full width for mobile */
+        height: auto;
+        margin: auto;
+        border-radius: 16px; /* Adjust border radius */
+    }
+
+    .scout {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 10px;
+        margin-top: 20px;
+    }
+    
+    .rectangele {
+        margin-top: 20px; /* Adjust top margin for better spacing */
+    }
+
+    .midfirst, .midsecond {
+        width: 100%; /* Full width */
+        padding: 16px; /* Adjust padding for smaller screens */
+    }
+
+    .insight, .insightscout {
+        max-width: 100%; /* Full width for insights */
+        height: auto; /* Adjust height */
+    }
+}
