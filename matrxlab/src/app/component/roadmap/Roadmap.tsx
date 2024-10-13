@@ -1,7 +1,13 @@
+"use client"
+
 import React from 'react';
 import './roadmap.css';
-
+import AOS from 'aos';
+import { useEffect } from 'react';
 const Roadmap = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  }, []);
   const data = [
     {
       imageUrl: 'https://via.placeholder.com/300',
@@ -31,12 +37,12 @@ const Roadmap = () => {
 
   return (
     <div className='roadmapcontainer'>
-      <p className='roadmaptext'>Roadmap</p>
+      <p className='roadmaptext' data-aos="fade-up">Roadmap</p>
 
       {data.map((item, index) => (
-        <div key={index} className='insideroadmap'>
+        <div key={index} className='insideroadmap' data-aos="fade-up">
           <div className='inside2roadmap'>
-            {/* Left Side or Right Side Rendering */}
+          
 
             {item.isLeft?<div className='leftroadmap'>
               <button className='phasebutton'>{item.buttonText}</button>
@@ -57,7 +63,7 @@ const Roadmap = () => {
                 autoPlay
                 loop
                muted
-                playsInline width="512px" height="100%" controls>
+                playsInline width="512px" height="100%" >
                     <source src={item.video} type="video/mp4" />
                
                   </video>

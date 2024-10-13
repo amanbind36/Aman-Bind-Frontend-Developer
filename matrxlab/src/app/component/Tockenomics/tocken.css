@@ -4,7 +4,6 @@
     margin: auto;
     margin-top: 72px;
     background: linear-gradient(180deg, #00161D 0%, rgba(0, 22, 29, 0) 50%, #00161D 100%);
-    border: 1px solid red;
 
 }
 .tocken2container{
@@ -12,7 +11,6 @@
     height: 694px;
     margin: auto;
     margin-top: 24px;
-    border: 1px solid blue;
     position: relative;
 
 }
@@ -28,7 +26,6 @@
 .insidetocken{
     max-width: 1440px;
     height: 522px;
-    border: 1px solid red;
 }
 .inside2tocken{
     max-width: 1280px;
@@ -37,17 +34,14 @@
     display: flex;
     justify-content: space-between;
     margin-top: 44px;
-    border: 1px solid green;
 }
 .lefttocken{
     width: 671px;
     height: 522px;
-    border: yellow;
 }
 .righttocken{
     width: 538px;
     height: 512px;
-    border: yellow;
 }
 .chart {
     position: relative;
@@ -56,11 +50,11 @@
     margin-top: 38px;
     border-radius: 50%;
     background: conic-gradient(
-      #00eaff 90deg,   /* Liquidity Pool (90%) */
-      hsl(200, 100%, 28%) 90deg 126deg, /* Marketing (5%) */
-      #02a6d3 126deg 180deg  /* Team (35%) */
+      #00eaff 90deg,   
+      hsl(200, 100%, 28%) 90deg 126deg, 
+      #02a6d3 126deg 180deg  
     );
-    transition: transform 0.5s ease; /* Smooth transition for rotation */
+    transition: transform 0.5s ease; 
 
   }
   .market{
@@ -79,16 +73,16 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100px; /* Inner circle for the donut effect */
+    width: 100px; 
     height: 100px;
-    background-color: #000a1f; /* Background color to match the center */
+    background-color: #000a1f;
     border-radius: 50%;
     transform: translate(-50%, -50%);
   }
   
-  /* Hover effect to rotate the chart */
+  
   .chart:hover {
-    transform: rotate(360deg); /* Rotates the chart on hover */
+    transform: rotate(360deg); 
   }
   
   .arrow{
@@ -100,7 +94,6 @@
     width: 538px;
     background:blur(5px);
     height: 324px;
-    border: 1px solid red;
     border-radius: 20px;
     padding: 12px 56px ;
     background: rgba(12, 43, 47, 0.7);
@@ -125,7 +118,6 @@
     margin-top: 26px;
     gap: 50px;
     margin-top: 60px;
-    border: 1px solid red;
     box-sizing: border-box;
   }
   table{
@@ -133,13 +125,11 @@
     
     color: rgba(255, 255, 255, 1);
     
-    border: 1px solid red;
   }
   td{
    
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid green;
   }
   .downtocken{
     width: 538px;
@@ -147,7 +137,6 @@
     margin-top: 10px;
     height: 174px;
     padding: 12px 56px;
-    border: 1px solid red;
     box-sizing: border-box;
     border-radius: 20px;
     background: rgba(12, 43, 47, 0.7);

@@ -1,11 +1,19 @@
+"use client"
+
 import React from 'react'
 import { FaTelegramPlane,FaInstagram,FaFacebookF ,FaDiscord} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import AOS from 'aos';
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
 import "./footer.css"
 const Footer = () => {
+    useEffect(() => {
+        AOS.init({ duration: 1200 });
+      }, []);
   return (
     <div className='footercontainer'>
-        <div className='insidefooter'> 
+        <div className='insidefooter' data-aos="fade-up"> 
             <div className='leftfooter'>
                 <div className='brandname'>
                 <div className="text-2xl flex font-bold text-gray-800 ">

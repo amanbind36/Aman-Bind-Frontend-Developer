@@ -1,6 +1,13 @@
+"use client"
+
 import React from 'react'
 import "./tocken.css"
+import AOS from 'aos';
+import { useEffect } from 'react';
 const Tockenomics = () => {
+    useEffect(() => {
+        AOS.init({ duration: 1200 });
+      }, []);
   return (
     <div className='tockencontainer'>
         <video 
@@ -10,22 +17,22 @@ const Tockenomics = () => {
         playsInline
         style={{
             maxWidth:"100%",
-            // Keeps the video fixed in the background
+            
             position:"absolute",
-             // Fixed height in pixels
-             margin: "auto", // Centers the video horizontally
-             objectFit: "cover", // Ensures the video covers the defined dimensions
-             zIndex: "-1", // Places the video behind all content
-             right: 0, // These ensure the video is centered both vertically and horizontally
+            
+             margin: "auto", 
+             objectFit: "cover", 
+             zIndex: "-1", 
+             right: 0, 
             
            }}
         src="../tockenvideo.mov" >
        
         </video>
-        <div className='tocken2container'>
-           <p className='tockntext'>Tokenomics</p>
+        <div className='tocken2container' data-aos="fade-up">
+           <p className='tockntext' data-aos="fade-up">Tokenomics</p>
            <div className='insidetocken'>
-            <div className='inside2tocken'>
+            <div className='inside2tocken' data-aos="fade-up">
                 <div className='lefttocken'>
                     <p>Liquiditypool(90%)</p>
                 <div className="chart">

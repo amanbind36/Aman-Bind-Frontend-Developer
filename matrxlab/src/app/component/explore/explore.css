@@ -2,7 +2,6 @@
     max-width: 1440px;
     height: 462px;
     margin-top: 72px;
-    border: 1px solid red;
 }
 .insideexplore{
     width: 960px;
@@ -10,8 +9,8 @@
     background-color: rgb(5, 38, 46);
     margin: auto;
     border-radius: 20px;
-    border: 1px solid rgb(4, 0, 255);
-    margin-top: 30px;
+    margin-top: 50px;
+    border: 1px solid  rgb(5, 38, 46);
     box-shadow: 0px 0px 32px 16px rgba(99, 242, 255, 0.1) inset;
 
 }
@@ -20,7 +19,6 @@
     margin: auto;
     height: 196px;
     margin-top: 32px;
-    border: 1px solid green;
 }
 
 .exploretext{
@@ -57,12 +55,13 @@ margin-top: 32px;
     background-color: rgba(205, 252, 255, 1);
 }
 
+/* mediaQuery responsive */
+
 @media only screen and (max-width: 768px){
     .explorecontainer{
         max-width: 1440px;
         height: auto;
         margin-top: 72px;
-        border: 1px solid red;
     }
     .insideexplore{
         width: auto;
@@ -70,7 +69,6 @@ margin-top: 32px;
         background-color: rgb(5, 38, 46);
         margin: auto;
         border-radius: 20px;
-        border: 1px solid rgb(4, 0, 255);
         margin-top: 30px;
         box-shadow: 0px 0px 32px 16px rgba(99, 242, 255, 0.1) inset;
     
@@ -80,7 +78,6 @@ margin-top: 32px;
         margin: auto;
         height: auto;
         margin-top: 32px;
-        border: 1px solid green;
     }
     .explorebutton{
         display: flex;

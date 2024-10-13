@@ -1,17 +1,23 @@
+"use client"
 import React from 'react';
 import MarketCompo from './component/marketinsight/MarketCompo';
 import About from './component/about/About';
 import Tockenomics from './component/Tockenomics/Tockenomics';
 import Roadmap from './component/roadmap/Roadmap';
+import AOS from 'aos';
+import { useEffect } from 'react';
 import Askedquestion from './component/askedquestion/Askedquestion';
 import Explore from './component/explore/Explore';
 const Home = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  }, []);
   return (
     <>
      
 
-    <div className="mx-auto max-w-[1440px] h-[300px] border border-red-500 text-white flex flex-col justify-center items-center p-4">
-      {/* For mobile, use text-4xl for large font size and break words line-by-line */}
+    <div data-aos="zoom-in" className="mx-auto max-w-[1440px] h-[300px]  text-white flex flex-col justify-center items-center p-4">
+     
       <h1 className="font-medium text-4xl sm:text-[72px] sm:leading-[76px] text-center">
         When Innovation
       </h1>
@@ -23,11 +29,11 @@ const Home = () => {
           Investments
         </span>
       </h1>
-      {/* Description */}
+     
       <p className="font-normal w-full sm:w-[500px] h-7 text-[#B0FAFFB2] text-center mt-5">
         Empowering Trading Through Advanced Technology
       </p>
-      {/* Button */}
+      
       <button className="mt-4 w-[131px] h-[44px] rounded-[12px] bg-[#101D17] text-white">
         Open App
       </button>

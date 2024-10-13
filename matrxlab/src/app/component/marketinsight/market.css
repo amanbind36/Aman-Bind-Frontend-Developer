@@ -2,7 +2,6 @@
 max-width: 1440px;
 height: 832px;
 margin: auto;
-border:1px solid red;
 
 
 }
@@ -106,6 +105,8 @@ border:1px solid red;
 }
 
 
+/* mediaQuery Responsive */
+
 
 @media (max-width: 768px) {
     .maincontainer{
@@ -117,52 +118,52 @@ border:1px solid red;
     .upper {
         display: flex;
         flex-direction: column;
-        width: 100%; /* Take full width on smaller screens */
-        height: auto; /* Let the height adjust based on content */
-        margin: 0; /* Remove auto margin for center alignment */
-        margin-top: 10px; /* Adjust margin for spacing */
+        width: 100%; 
+        height: auto; 
+        margin: 0; 
+        margin-top: 10px;
     }
 
     .lowercontainer {
         display: flex;
         flex-direction: column;
-        width: 100%; /* Full width */
-        height: auto; /* Adjust height based on content */
+        width: 100%; 
+        height: auto; 
         margin: auto;
-        margin-top: 10px; /* Spacing */
+        margin-top: 10px;
     }
 
     .left, .right, .mid {
-        width: 100%; /* Each section takes full width */
-        height: auto; /* Adjust height automatically */
-        margin-bottom: 10px; /* Add margin between sections */
-        border-radius: 16px; /* Optional: adjust border radius for a smaller screen */
+        width: 100%; 
+        height: auto; 
+        margin-bottom: 10px; 
+        border-radius: 16px;
     }
 
     .portfolio, .scout {
-        width: 100%; /* Full width for mobile */
+        width: 100%; 
         height: auto;
         margin: auto;
-        border-radius: 16px; /* Adjust border radius */
+        border-radius: 16px;
     }
 
     .scout {
-        flex-direction: column; /* Stack elements vertically */
+        flex-direction: column; 
         padding: 10px;
         margin-top: 20px;
     }
     
     .rectangele {
-        margin-top: 20px; /* Adjust top margin for better spacing */
+        margin-top: 20px;
     }
 
     .midfirst, .midsecond {
-        width: 100%; /* Full width */
-        padding: 16px; /* Adjust padding for smaller screens */
+        width: 100%; 
+        padding: 16px;
     }
 
     .insight, .insightscout {
-        max-width: 100%; /* Full width for insights */
-        height: auto; /* Adjust height */
+        max-width: 100%; 
+        height: auto; 
     }
 }

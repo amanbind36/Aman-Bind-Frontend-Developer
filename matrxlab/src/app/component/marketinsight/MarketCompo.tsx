@@ -6,7 +6,7 @@ import AOS from 'aos';
 import { useEffect } from 'react';
 import 'aos/dist/aos.css';
 
-const MarketCompo = () => {
+ const MarketCompo = () => {
     useEffect(() => {
         AOS.init({ duration: 1200 });
       }, []);

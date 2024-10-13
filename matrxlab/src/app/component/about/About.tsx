@@ -1,16 +1,23 @@
+"use client"
+
 import React from 'react'
 import "./about.css"
+import AOS from 'aos';
+import { useEffect } from 'react';
 const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  }, []);
   return (
     <>
     
-    <div className='aboutContainer'>
+    <div className='aboutContainer' data-aos="fade-up">
         <div className='insideaboutcontainer'>
             <p className='abouttext'>About EthAi</p>
             <p className='secondtext'>At EthAi, we’re all about making crypto trading easier and more intuitive. We provide tools that help traders keep up with all new market trends, track top traders’ movements.</p>
             <button className='aboutbutton'>Read more</button>
             <div className='staycontainer'>
-              <div className='insidestay'>
+              <div className='insidestay' data-aos="fade-up">
                 <div className='secondcontainer'>
                   <div className='topstay'>
                     <div className='leftstay'>

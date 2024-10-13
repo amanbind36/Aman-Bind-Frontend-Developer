@@ -1,13 +1,20 @@
+
+"use client"
 import React from 'react'
 import "./asked.css"
+import AOS from 'aos';
+import { useEffect } from 'react';
 const Askedquestion = () => {
+    useEffect(() => {
+        AOS.init({ duration: 1200 });
+      }, []);
   return (
     <div className='askcontainer'>
-        <div className='leftask'>
+        <div className='leftask' data-aos="slide-left">
             <p className='askname'>Frequently Asked 
             Questions</p>
         </div>
-        <div className='rightask'>
+        <div className='rightask' data-aos="slide-right">
             <div className='textbox'>
                 <p>+</p>
                 <p className='text'>What is EthAi?</p>
