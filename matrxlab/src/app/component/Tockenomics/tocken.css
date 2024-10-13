@@ -171,6 +171,15 @@
       border: 1px solid red;
   
   }
+  .inside2tocken{
+    max-width: 1280px;
+    height: height;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+    border: 1px solid green;
+}
   .card{
     margin: auto;
   }
@@ -223,18 +232,27 @@
       width: 100%;  /* Full width for smaller screens */
       height: auto; /* Adjust the height automatically */
     }
+    .inside2tocken{
+      max-width: 1280px;
+      height: auto;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 44px;
+      border: 1px solid green;
+  }
     .tockencontainer{
       max-width: 1440px;
       height: auto;
       margin: auto;
       margin-top: 72px;
       background: linear-gradient(180deg, #00161D 0%, rgba(0, 22, 29, 0) 50%, #00161D 100%);
-      border: 1px solid red;
+      border: 10px solid red;
   
   }
   .tocken2container{
       max-width: 1440px;
-      height: auto;
+      height: 1000px;
       margin: auto;
       margin-top: 24px;
       border: 1px solid blue;

@@ -57,7 +57,7 @@ const Roadmap = () => {
                 autoPlay
                 loop
                muted
-                playsInline width="100%" height="100%" controls>
+                playsInline width="512px" height="100%" controls>
                     <source src={item.video} type="video/mp4" />
                
                   </video>
@@ -82,7 +82,7 @@ const Roadmap = () => {
                autoPlay
                loop
               muted
-               width="100%" height="1000px" >
+               width="512px" height="1000px" >
                     <source height="1000px" src={item.video} type="video/mp4" />
                
                   </video>

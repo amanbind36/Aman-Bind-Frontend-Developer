@@ -35,7 +35,7 @@ const Home = () => {
        <MarketCompo/>
        <About/>
        <Tockenomics/>
-       {/* <Roadmap/> */}
+       <Roadmap/>
       </div>
     </>
   );

@@ -85,6 +85,18 @@ linear-gradient(270deg, #00161D 0%, rgba(0, 22, 29, 0) 19.64%);
       height: auto; /* Allow the height to adjust */
       padding: 32px; /* Adjust padding */
     }
+    .roadmapcontainer{
+        max-width:1440px ;
+        height:auto ;
+        border: 1px solid red;
+        margin-top: 64px
+    }
+    .insideroadmap{
+        height: auto;
+        margin: auto;
+        width: 100%;
+        border: 1px solid green;
+    }
   
     .leftroadmap, .rightroadmap {
       width: 90%; /* Adjust to take up most of the width */
@@ -104,6 +116,12 @@ linear-gradient(270deg, #00161D 0%, rgba(0, 22, 29, 0) 19.64%);
       align-items: center; /* Center the items */
       width: 100%; /* Full width */
       padding: 20px; /* Reduce padding for small screens */
+    }
+    .insideroadmap{
+        height: auto;
+        margin: auto;
+        width: 100%;
+        border: 1px solid green;
     }
   
     .leftroadmap, .rightroadmap {
