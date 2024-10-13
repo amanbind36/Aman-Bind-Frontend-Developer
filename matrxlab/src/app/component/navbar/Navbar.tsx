@@ -7,10 +7,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItem = [
-    { name: "Features", link: "/" },
-    { name: "Why Us", link: "/" },
-    { name: "Tokenomics", link: "/" },
-    { name: "Roadmap", link: "/" },
+    { name: "Features", link: "/features" },
+    { name: "Why Us", link: "/whyus" },
+    { name: "Tokenomics", link: "/tocken" },
+    { name: "Roadmap", link: "/roadmap" },
   ];
 
   const toggleMenu = () => {
@@ -20,8 +20,9 @@ const Navbar = () => {
   return (
     <nav style={{margin:"auto"}} className="shadow-md py-4">
       <div style={{margin:"auto"}} className="container mx-auto flex justify-around items-center">
-       
+      <Link href="/">
         <div className="text-2xl flex font-bold text-gray-800">
+          
             <div>
             <svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.5" y="12.3428" width="11.3143" height="11.3143" fill="#1ADEF5"/>
@@ -35,12 +36,13 @@ const Navbar = () => {
 <path d="M12.8429 24.6858H24.1572C24.1572 30.9345 19.0916 36.0001 12.8429 36.0001V24.6858Z" fill="#1E808C"/>
 </svg>
             </div>
+           
             <div style={{color:"white"}}>
             EathAi
             </div>
           
             </div>
-
+            </Link>
          
         <div className="hidden md:flex flex-grow justify-center">
           <ul  style={{ backgroundColor: 'rgb(10, 31, 34)',color:" rgb(116, 176, 182) "}} className="flex items-center justify-around w-[655px] h-16 max-w-lg  rounded-3xl p-2 text-center">
