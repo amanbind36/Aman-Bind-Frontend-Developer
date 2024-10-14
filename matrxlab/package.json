@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^5.7.4",
     "aos": "^2.3.4",
     "next": "14.2.15",
     "next-videos": "^1.4.1",
