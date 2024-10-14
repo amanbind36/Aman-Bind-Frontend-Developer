@@ -24,7 +24,7 @@ import 'aos/dist/aos.css';
                 <div className='midfirst'>
                     <div className='insight'>
                         <p style={{fontSize:"22px",color:"white"}}> Market Insight </p>
-                        <p style={{color:"rgb(116, 176, 182)"}}>Stay ahead of the market. Get real-time updates on market trends, track top traders' movements, and spot signals from key influencers.</p>
+                        <p style={{color:"rgb(116, 176, 182)"}}>Stay ahead of the market. Get real-time updates on market trends, track top traders movements, and spot signals from key influencers.</p>
                     </div>
                 </div>
                 <div className='midsecond'></div>

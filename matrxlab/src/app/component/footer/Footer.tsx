@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
             <div className='rightfooter'>
                 <div className='footerbootom'>
-                    <p className='textfooter'>“Designed for traders of today, just like you."</p>
+                    <p className='textfooter'>Designed for traders of today, just like you.</p>
                   
                 </div>
                 <div className='searchcontainer'>
