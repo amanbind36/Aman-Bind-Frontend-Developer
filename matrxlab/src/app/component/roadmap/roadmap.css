@@ -83,14 +83,14 @@ linear-gradient(270deg, #00161D 0%, rgba(0, 22, 29, 0) 19.64%);
     .roadmapcontainer{
         max-width:1440px ;
         height:auto ;
-        border: 1px solid red;
+      
         margin-top: 64px
     }
     .insideroadmap{
         height: auto;
         margin: auto;
         width: 100%;
-        border: 1px solid green;
+       
     }
   
     .leftroadmap, .rightroadmap {
@@ -116,7 +116,7 @@ linear-gradient(270deg, #00161D 0%, rgba(0, 22, 29, 0) 19.64%);
         height: auto;
         margin: auto;
         width: 100%;
-        border: 1px solid green;
+        
     }
   
     .leftroadmap, .rightroadmap {
