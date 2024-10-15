@@ -77,6 +77,11 @@ margin-top: 32px;
         width: auto;
         margin: auto;
         height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding: 50px;
+        box-sizing: border-box;
+        text-align: justify;
         margin-top: 32px;
     }
     .explorebutton{
@@ -90,8 +95,11 @@ margin-top: 32px;
         text-align: center;
         margin: auto;
         margin-top: 200px;
+        margin-bottom: 50px;
         background-color: rgba(205, 252, 255, 1);
     }
+
+    
 }
 
 @media  screen and (max-width: 368px){
@@ -105,17 +113,6 @@ margin-top: 32px;
         font-weight: 500px;
         align-items: center;
     }
-    .explorebutton{
-        display: flex;
-        width: 139.71px;
-        height: 44px;
-        border-radius: 12px;
-        padding: 12px 24px;
-        color: rgba(1, 28, 36, 1);
-        align-items: center;
-        text-align: center;
-        margin: auto;
-        margin-top: 250px;
-        background-color: rgba(205, 252, 255, 1);
-    }
+   
+   
 }

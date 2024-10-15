@@ -37,7 +37,11 @@ linear-gradient(270deg, #00161D 0%, rgba(0, 22, 29, 0) 19.64%);
     max-width: 576;
     width: 512px;
     height: 512px;
-
+  
+}
+.roadmapvideo{
+  height: 100%;
+ 
 }
 .phasebutton{
     width: 81px;

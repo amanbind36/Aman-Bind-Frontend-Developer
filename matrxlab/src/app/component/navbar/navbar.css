@@ -1,0 +1,17 @@
+
+
+@media   (max-width:769px) {
+    #eathai{
+        display: none;
+    }
+    #navmain{
+        background-color: rgb(10, 31, 34) ;
+        padding: 12px 40px;
+        border-radius: 24px;
+        width: 80%;
+     
+        justify-content: space-between;
+        
+    }
+}
+/* style={{ backgroundColor: 'rgb(10, 31, 34)',color:" rgb(116, 176, 182) "}} className="flex items-center justify-around w-[655px] h-16 max-w-lg  rounded-3xl p-2 text-center" */

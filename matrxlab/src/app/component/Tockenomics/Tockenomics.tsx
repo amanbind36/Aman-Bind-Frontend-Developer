@@ -14,6 +14,7 @@ const Tockenomics = () => {
         autoPlay
         loop
         muted
+        className='videotocken'
         playsInline
         style={{
             maxWidth:"100%",

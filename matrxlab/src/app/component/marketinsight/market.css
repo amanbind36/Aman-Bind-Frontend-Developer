@@ -9,7 +9,7 @@ margin: auto;
 .upper{
     display: flex;
     justify-content: space-between;
-    width:1200px;
+    max-width:1200px;
     height:504px;
     margin:auto;
     margin-top: 20px;
@@ -23,7 +23,7 @@ cursor: pointer;
 .lowercontainer{
     display:flex;
     
-    width:1200px;
+    max-width:1200px;
     height:240px;
     margin:auto;
     margin-top: 20px;

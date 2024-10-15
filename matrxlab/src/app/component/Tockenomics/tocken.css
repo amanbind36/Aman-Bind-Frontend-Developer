@@ -160,6 +160,21 @@
   
   
   }
+  .market{
+    display: none;
+    position: relative;
+    margin-top: -550px;
+    margin-left: 950px;
+  }
+  .team{
+    display: none;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 450px;
+  }
+  .videotocken{
+    height: 1000px;
+  }
   .inside2tocken{
     max-width: 1280px;
     height: height;
@@ -218,8 +233,12 @@
   
   @media only screen and (max-width: 480px) {
     .lefttocken, .righttocken {
-      width: 100%;  /* Full width for smaller screens */
-      height: auto; /* Adjust the height automatically */
+      width: 100%; 
+      height: auto; 
+      
+    }
+    .chart{
+      margin: auto;
     }
     .inside2tocken{
       max-width: 1280px;

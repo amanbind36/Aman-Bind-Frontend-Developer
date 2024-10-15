@@ -13,7 +13,7 @@ import 'aos/dist/aos.css';
   return (
     <div className='maincontainer' style={{}}>
         <div className='upper'data-aos="fade-up" >
-            <div className='left' data-aos="fade-right">
+            <div className='left' data-aos="fade-up">
                 <div className='rectangele'></div>
                 <div className='trade'>
                     <p style={{color:"white"}}>Trade Optimizer</p>
@@ -29,8 +29,8 @@ import 'aos/dist/aos.css';
                 </div>
                 <div className='midsecond'></div>
             </div>
-            <div className='right' data-aos="fade-left">
-            <svg width="280" height="504" viewBox="0 0 280 504" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className='right' data-aos="fade-up">
+            <svg width="100%" height="100%" viewBox="0 0 280 504" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_301_274)">
 <path d="M0 16C0 7.16344 7.16344 0 16 0H224C254.928 0 280 25.0721 280 56V488C280 496.837 272.837 504 264 504H16C7.16344 504 0 496.837 0 488V16Z" fill="#0C2B2F" fill-opacity="0.7"/>
 <g clip-path="url(#clip1_301_274)">
@@ -141,7 +141,7 @@ import 'aos/dist/aos.css';
         </div>
         <div data-aos="zoom-in"className='lowercontainer' >
             <div className='portfolio'>
-            <svg width="446" height="240" viewBox="0 0 446 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="100%" height="100%" viewBox="0 0 446 240" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_301_9)">
 <path d="M0 16C0 7.16344 7.16344 0 16 0H430C438.837 0 446 7.16344 446 16V224C446 232.837 438.837 240 430 240H56C25.072 240 0 214.928 0 184V16Z" fill="#0C2B2F" fill-opacity="0.7"/>
 <g clip-path="url(#clip1_301_9)">

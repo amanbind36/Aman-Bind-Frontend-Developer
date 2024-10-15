@@ -2,6 +2,7 @@
 
 import React, { useState } from "react"; 
 import Link from "next/link";
+import "./navbar.css"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,12 +19,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav style={{margin:"auto"}} className="shadow-md py-4">
-      <div style={{margin:"auto"}} className="container mx-auto flex justify-around items-center">
+   
+    <nav className="shadow-md py-4 z-[1000] fixed top-0 left-0 w-full ">
+      <div style={{margin:"auto"}} id="navmain" className="container mx-auto max-w-[1400px] flex justify-around items-center ">
       <Link href="/">
         <div className="text-2xl flex font-bold text-gray-800">
           
-            <div>
+            <div >
             <svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.5" y="12.3428" width="11.3143" height="11.3143" fill="#1ADEF5"/>
 <path d="M0.5 0C6.7487 0 11.8143 5.06558 11.8143 11.3143H0.5V0Z" fill="#1E808C"/>
@@ -37,14 +39,14 @@ const Navbar = () => {
 </svg>
             </div>
            
-            <div style={{color:"white"}}>
+            <div id="eathai" style={{color:"white",marginLeft:"20px"}}>
             EathAi
             </div>
           
             </div>
             </Link>
          
-        <div className="hidden md:flex flex-grow justify-center">
+        <div style={{marginLeft:"60px"}} className="hidden md:flex flex-grow justify-center">
           <ul  style={{ backgroundColor: 'rgb(10, 31, 34)',color:" rgb(116, 176, 182) "}} className="flex items-center justify-around w-[655px] h-16 max-w-lg  rounded-3xl p-2 text-center">
             {menuItem.map((menu) => (
               <li key={menu.link}>
@@ -89,8 +91,8 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div style={{position:"absolute",top:0}} 
-        className={`md:hidden ${
+      <div style={{position:"absolute",top:0,backdropFilter:"blur(10px)"}} 
+        className={`  md:hidden ${
           isOpen ? "block" : "hidden"
         } p-4 absolute w-full left-0 top-full z-10`}
        
@@ -140,6 +142,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+   
   );
 };
 
