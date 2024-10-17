@@ -1,4 +1,7 @@
-
+.whitebutton:hover{
+    color: black;
+  background-color: rgb(21, 199, 212);
+}
 
 @media   (max-width:769px) {
     #eathai{

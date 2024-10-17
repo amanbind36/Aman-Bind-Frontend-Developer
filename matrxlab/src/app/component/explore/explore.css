@@ -99,6 +99,10 @@ margin-top: 32px;
         margin-bottom: 50px;
         background-color: rgba(205, 252, 255, 1);
     }
+    .explorebutton:hover{
+        color: black;
+        background-color: rgb(5, 170, 182);
+    }
 
     
 }

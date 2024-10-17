@@ -28,6 +28,10 @@
     justify-content: space-around;
     color: white;
 }
+.icons:hover{
+   
+    background-color: rgba(205, 252, 255, 1);
+}
 .brandname{
     width: 168px;
     height: 56px;
@@ -68,6 +72,10 @@
 
 backdrop-filter: blur(7.5px)
 
+}
+.searchbutton:hover{
+    color: black;
+    background-color: rgba(205, 252, 255, 1);
 }
 .searchcontainer>input{
    

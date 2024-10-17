@@ -79,6 +79,10 @@ border-radius: 12px ;
 
 
 }
+.aboutbutton:hover{
+    color: black;
+    background-color: rgba(205, 252, 255, 1);
+}
 .staycontainer{
     width: 1440px;
     margin-top: 40px;

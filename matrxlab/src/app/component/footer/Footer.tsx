@@ -30,7 +30,7 @@ const Footer = () => {
 <path d="M12.8429 24.6858H24.1572C24.1572 30.9345 19.0916 36.0001 12.8429 36.0001V24.6858Z" fill="#1E808C"/>
 </svg>
             </div>
-            <div style={{color:"white"}}>
+            <div style={{color:"white",marginLeft:"20px"}}>
             EathAi
             </div>
           
