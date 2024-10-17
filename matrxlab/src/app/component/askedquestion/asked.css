@@ -2,8 +2,12 @@
     max-width: 1200px;
     height: 551px;
     margin: auto;
-    margin-top: 72px;
+    margin-top: 472px;
     display: flex;
+    position: sticky;
+    top: 10px;
+   z-index: -1;
+    
     justify-content: space-around;
 }
 .leftask{

@@ -3,8 +3,21 @@
     height: 802px;
     margin: auto;
     margin-top: 72px;
-    background: linear-gradient(180deg, #00161D 0%, rgba(0, 22, 29, 0) 50%, #00161D 100%);
+   
+    /* background: linear-gradient(90deg, rgba(0, 22, 29, 1) 0%, rgba(0, 22, 29, 0.7) 50%, rgba(0, 22, 29, 1) 100%); */
+    /* background: rgba(0, 22, 29, 1); */
+/* background:rgba(0, 22, 29, 1) ; */
+    background: linear-gradient(180deg, #00161D 0%, rgba(0, 22, 29, 0) 50%, #00161D 100%),
+    linear-gradient(90deg, rgb(1, 21, 28) 0%, rgba(0, 22, 29, 0) 50%, #00161D 100%)
+    ;
+    
+   
 
+}
+.videotocken{
+  max-width: 1410px;
+  margin: auto;
+  height: 800px;
 }
 .tocken2container{
     max-width: 1440px;
@@ -42,6 +55,10 @@
 .righttocken{
     width: 538px;
     height: 512px;
+}
+.circle{
+  width: 674;
+  height: 522px;
 }
 .chart {
     position: relative;
@@ -150,6 +167,10 @@
     .lefttocken, .righttocken {
       width: 100%;  /* Make them take full width */
       height: auto; /* Let the height adjust automatically */
+    }
+    .circle{
+      width: 100%;
+      height: 100%;
     }
     .tockencontainer{
       max-width: 1440px;

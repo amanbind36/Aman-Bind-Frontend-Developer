@@ -12,7 +12,51 @@ import 'aos/dist/aos.css';
       }, []);
   return (
     <div className='maincontainer' style={{}}>
+        <div className='videocontainer' data-aos="fade-up">
+            <div className='leftvideo'>
+                 <video
+            autoPlay
+            loop
+            muted
+            
+            className='marketvideo'
+            style={{
+                
+                
+                position:"absolute",
+                
+                 
+                 objectFit: "cover", 
+                 zIndex: "-1", 
+                
+                
+               }}
+            src="./marketvideo.mp4" ></video>
+            </div>
+            <div className='rightvideo'>
+            <video
+            autoPlay
+            loop
+            muted
+            
+            className='markerighttvideo'
+            style={{
+                
+                
+                position:"absolute",
+                
+                 
+                 objectFit: "cover", 
+                 zIndex: "-1", 
+                
+                
+               }}
+            src="./marketvideo.mp4" ></video>
+            </div>
+        
         <div className='upper'data-aos="fade-up" >
+
+           
             <div className='left' data-aos="fade-up">
                 <div className='rectangele'></div>
                 <div className='trade'>
@@ -27,7 +71,9 @@ import 'aos/dist/aos.css';
                         <p style={{color:"rgb(116, 176, 182)"}}>Stay ahead of the market. Get real-time updates on market trends, track top traders movements, and spot signals from key influencers.</p>
                     </div>
                 </div>
-                <div className='midsecond'></div>
+                <div className='midsecond'>
+                    <p className='features'>Our features</p>
+                </div>
             </div>
             <div className='right' data-aos="fade-up">
             <svg width="100%" height="100%" viewBox="0 0 280 504" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -138,6 +184,7 @@ import 'aos/dist/aos.css';
 </svg>
 
             </div>
+        </div>
         </div>
         <div data-aos="zoom-in"className='lowercontainer' >
             <div className='portfolio'>

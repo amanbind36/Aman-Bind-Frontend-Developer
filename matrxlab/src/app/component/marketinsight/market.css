@@ -2,9 +2,63 @@
 max-width: 1440px;
 height: 832px;
 margin: auto;
+margin-top: 302px;
 
 
 }
+.videocontainer{
+   
+    max-width:1540px;
+    height: 404px;
+    margin: auto;
+   
+   
+}
+.marketvideo{
+    width: 100%;
+   
+    
+    margin-left: -1200px;
+    height:100%;
+    justify-content: space-between;
+    transform: rotate(180deg);
+}
+.leftvideo{
+    width:100%;
+    height:100%;
+    margin-top: 380px;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(90deg, #00161D 0%, rgba(0, 22, 29, 0) 50%, #00161D 100%,
+    linear-gradient(180deg, #00161D 0%, rgba(0, 22, 29, 0) 50%, #00161D 100%));
+
+}
+.features{
+    font-weight: 500px;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+  padding: 100px;
+  box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.rightvideo{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    margin-top: -400px;
+    position: relative; 
+}
+.markerighttvideo{
+    width:100%;
+    z-index: -1;
+    margin-left: 1200px;
+    height:100%;
+   
+}
+
 
 .upper{
     display: flex;
@@ -12,7 +66,9 @@ margin: auto;
     max-width:1200px;
     height:504px;
     margin:auto;
-    margin-top: 20px;
+    position: relative;
+    margin-top: -450px;
+    
 }
 .left:hover{
 transform: scale(1.5px);
@@ -26,7 +82,7 @@ cursor: pointer;
     max-width:1200px;
     height:240px;
     margin:auto;
-    margin-top: 20px;
+    margin-top: 70px;
     
   
     justify-content: space-between;
@@ -125,7 +181,7 @@ cursor: pointer;
         width: 100%; 
         height: auto; 
         margin: 0; 
-        margin-top: 10px;
+        margin-top: -650px;
     }
 
     .lowercontainer {

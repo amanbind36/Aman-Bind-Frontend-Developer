@@ -5,6 +5,7 @@ import About from './component/about/About';
 import Tockenomics from './component/Tockenomics/Tockenomics';
 import Roadmap from './component/roadmap/Roadmap';
 import AOS from 'aos';
+import "./page.css"
 import { useEffect } from 'react';
 import Askedquestion from './component/askedquestion/Askedquestion';
 import Explore from './component/explore/Explore';
@@ -18,10 +19,10 @@ const Home = () => {
 
     <div data-aos="zoom-in" className="mx-auto max-w-[1440px] h-[300px]  text-white flex flex-col justify-center items-center p-4">
      
-      <h1 className="font-medium text-4xl sm:text-[72px] sm:leading-[76px] text-center">
+      <h1 className="invovation font-medium text-4xl sm:text-[72px] sm:leading-[76px] text-center">
         When Innovation
       </h1>
-      <h1 className="font-medium text-4xl sm:text-[72px] sm:leading-[76px] text-center">
+      <h1 className="investmentText font-medium text-4xl sm:text-[72px] sm:leading-[76px] text-center">
         Meets{" "}
         <span
           className="rounded-full bg-[#B0F9FF] text-black px-5 py-1 font-semibold"
@@ -30,13 +31,16 @@ const Home = () => {
         </span>
       </h1>
      
-      <p className="font-normal w-full sm:w-[500px] h-7 text-[#B0FAFFB2] text-center mt-5">
+      <p className="tradingtext font-normal w-full sm:w-[500px] h-7 text-[#B0FAFFB2] text-center mt-5">
         Empowering Trading Through Advanced Technology
       </p>
       
-      <button className="mt-4 w-[131px] h-[44px] rounded-[12px] bg-[#101D17] text-white">
+      <button className="mainbutton mt-4 w-[131px] h-[44px] rounded-[12px] bg-[#101D17] text-white">
         Open App
       </button>
+      <div className='mainvideocontainer'>
+
+      </div>
      
     </div>
     <div style={{marginTop:"200px"}}>

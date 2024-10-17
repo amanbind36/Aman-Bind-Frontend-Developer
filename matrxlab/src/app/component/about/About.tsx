@@ -17,8 +17,20 @@ const About = () => {
             <p className='secondtext'>At EthAi, we’re all about making crypto trading easier and more intuitive. We provide tools that help traders keep up with all new market trends, track top traders’ movements.</p>
             <button className='aboutbutton'>Read more</button>
             <div className='staycontainer'>
+            <div className='leftvideoabout'>
+            <video
+            autoPlay
+            loop
+            muted
+            
+            className='aboutleftvideo'
+           
+            src="./marketvideo.mp4" ></video>
+            </div>
               <div className='insidestay' data-aos="fade-up">
+              
                 <div className='secondcontainer'>
+               
                   <div className='topstay'>
                     <div className='leftstay'>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +91,19 @@ const About = () => {
 <p className='stay2text'>We’re constantly improving, adding new features to help you make the most informed decisions possible.</p>
                     </div>
                   </div>
+                 
                 </div>
+               
+              </div>
+              <div className='rightvideoabout'>
+              <video
+            autoPlay
+            loop
+            muted
+            
+            className='aboutrightvideo'
+           
+            src="./marketvideo.mp4" ></video>
               </div>
             </div>
         </div>

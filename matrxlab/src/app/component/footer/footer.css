@@ -73,7 +73,7 @@ backdrop-filter: blur(7.5px)
    
     width: 294px;
     height: 20px;
-    background-color: black;
+    background-color: rgb(1, 14, 20);
 }
 
 /* mediaquery responsive */

@@ -49,7 +49,7 @@ const Roadmap = () => {
                   <h3 className='name'>{item.name}</h3>
                   <ul>
                     {item.bulletPoints.map((el, i) => (
-                      <li className='list' key={i}><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <li className='list' key={i}><svg style={{marginRight:"20px"}} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M18.333 10C18.333 5.398 14.603 1.667 10 1.667C5.39801 1.667 1.66701 5.398 1.66701 10C1.66701 14.603 5.39801 18.333 10 18.333C14.603 18.333 18.333 14.603 18.333 10Z" stroke="#A3F0FE" stroke-width="1.25" stroke-miterlimit="8.33333"/>
                       <path d="M6.66699 10.417L8.74999 12.5L13.333 7.5" stroke="#A3F0FE" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
                       </svg>
@@ -58,24 +58,25 @@ const Roadmap = () => {
                   </ul>
             </div>
             :
-            <div className='rightroadmap'>
+            <div className='rightroadmap' id='leftcon' >
                <video
                 autoPlay
                 loop
                muted
+              
                className='roadmapvideo'
-                playsInline width="512px" height="100%" >
+                playsInline  >
                     <source src={item.video} type="video/mp4" />
                
                   </video>
               </div>}
 
-              {!item.isLeft?<div className='leftroadmap'>
+              {!item.isLeft?<div style={{marginLeft:"30px"}} className='leftroadmap'>
               <button className='phasebutton'>{item.buttonText}</button>
                   <h3 className='name'>{item.name}</h3>
                   <ul>
                     {item.bulletPoints.map((el, i) => (
-                      <li className='list' key={i}><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <li className='list' key={i}><svg width="20" height="20" style={{marginRight:"20px"}} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M18.333 10C18.333 5.398 14.603 1.667 10 1.667C5.39801 1.667 1.66701 5.398 1.66701 10C1.66701 14.603 5.39801 18.333 10 18.333C14.603 18.333 18.333 14.603 18.333 10Z" stroke="#A3F0FE" stroke-width="1.25" stroke-miterlimit="8.33333"/>
                       <path d="M6.66699 10.417L8.74999 12.5L13.333 7.5" stroke="#A3F0FE" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
                       </svg>
@@ -84,13 +85,13 @@ const Roadmap = () => {
                   </ul>
             </div>
             :
-            <div className='rightroadmap'>
+            <div className='rightroadmap'  >
                <video  
                autoPlay
                loop
               muted
-              
-              className='roadmapvideo'width="512px" height="100%"
+             
+              className='roadmapvideo'
                  >
                     <source  src={item.video} type="video/mp4" />
                

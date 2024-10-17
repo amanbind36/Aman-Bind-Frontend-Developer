@@ -1,0 +1,20 @@
+.investmentText{
+    margin-top: 15px;
+}
+.tradingtext{
+    margin-top: 20px;
+}
+.mainbutton:hover{
+    color: black;
+    background-color: rgba(205, 252, 255, 1);
+}
+
+
+
+
+
+@media (max-width: 768px){
+    .mainbutton{
+        margin-top: 50px;
+    }
+}

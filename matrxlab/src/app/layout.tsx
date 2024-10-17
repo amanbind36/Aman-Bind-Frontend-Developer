@@ -31,7 +31,8 @@ export default function RootLayout({
         style={{ margin: 0, padding: 0,backgroundColor:"rgb(0, 22, 28)" }}
       >
       
-        <video
+      <div className="mainvideo">
+      <video
           autoPlay
           loop
           muted
@@ -54,6 +55,8 @@ export default function RootLayout({
           <source src="/MatrixVideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+      </div>
+       
         
         <div
           style={{

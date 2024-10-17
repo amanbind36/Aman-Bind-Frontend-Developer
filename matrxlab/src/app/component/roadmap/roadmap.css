@@ -12,11 +12,16 @@
 }
 .insideroadmap{
     height: 640px;
+    border: 1pz solid blue;
     margin: auto;
     width: 1440px;
+    margin-top: 200px;
+}
+#leftcon{
+  margin-left: -100px;
 }
 .inside2roadmap{
-    width: 1200px;
+    width: 1450px;
     margin: auto;
     height: 412px;
     display: flex;
@@ -28,20 +33,34 @@
 .leftroadmap{
     width: 534.66px;
     height: 304px;
-}
-.rightroadmap{
     background: linear-gradient(180deg, #00161D 0%, rgba(0, 22, 29, 0) 37.69%),
-linear-gradient(180deg, rgba(0, 22, 29, 0) 81.47%, #00161D 100%),
-linear-gradient(270deg, #00161D 0%, rgba(0, 22, 29, 0) 19.64%);
+    linear-gradient(180deg, rgba(0, 22, 29, 0) 81.47%, #00161D 100%),
+    linear-gradient(90deg, #00161D 0%, rgba(0, 22, 29, 0) 19.64%);
+    
+}
 
-    max-width: 576;
-    width: 512px;
-    height: 512px;
+.rightroadmap{
+    /* background: linear-gradient(180deg, #00161D 0%, rgba(0, 22, 29, 0) 37.69%),
+linear-gradient(180deg, rgba(0, 22, 29, 0) 81.47%, #00161D 100%),
+linear-gradient(270deg, #00161D 0%, rgba(0, 22, 29, 0) 19.64%); */
+background: linear-gradient(180deg, #00161D 0%, rgba(0, 22, 29, 0) 37.69%),
+linear-gradient(180deg, rgba(0, 22, 29, 0) 81.47%, #00161D 100%),
+linear-gradient(270deg, rgba(0, 22, 29, 0) 82.85%, #00161D 100%);
+
+position: relative;
+    margin-top: -100px;
+    width: 923px;
+   
+    height: 703px;
   
 }
 .roadmapvideo{
+  position: absolute;
   height: 100%;
- 
+  width: 100%;
+  z-index: -1;
+  object-fit: fill;
+  
 }
 .phasebutton{
     width: 81px;
@@ -104,7 +123,10 @@ linear-gradient(270deg, #00161D 0%, rgba(0, 22, 29, 0) 19.64%);
     }
   
     .rightroadmap {
-      height: 320px; /* Set video height for better display */
+margin: auto;
+
+      height: 320px; 
+      margin-top: 100px;
     }
   }
   
